@@ -8,7 +8,7 @@ env:
   GO_VERSION: 1.23
 jobs:
   lint-test:
-    name: "Lint and Test"
+    name: "Lints and Test"
     runs-on: "ubuntu-latest"
     steps:
       - name: "Checkout"
